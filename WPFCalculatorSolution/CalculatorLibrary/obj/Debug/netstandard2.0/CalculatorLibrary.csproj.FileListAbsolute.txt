@@ -1,0 +1,9 @@
+C:\Users\Nikola\Documents\Visual Studio 2019\MyProjects\WPF\CalculatorApp\WPFCalculatorSolution\CalculatorLibrary\bin\Debug\netstandard2.0\CalculatorLibrary.deps.json
+C:\Users\Nikola\Documents\Visual Studio 2019\MyProjects\WPF\CalculatorApp\WPFCalculatorSolution\CalculatorLibrary\bin\Debug\netstandard2.0\CalculatorLibrary.dll
+C:\Users\Nikola\Documents\Visual Studio 2019\MyProjects\WPF\CalculatorApp\WPFCalculatorSolution\CalculatorLibrary\bin\Debug\netstandard2.0\CalculatorLibrary.pdb
+C:\Users\Nikola\Documents\Visual Studio 2019\MyProjects\WPF\CalculatorApp\WPFCalculatorSolution\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.csprojAssemblyReference.cache
+C:\Users\Nikola\Documents\Visual Studio 2019\MyProjects\WPF\CalculatorApp\WPFCalculatorSolution\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.AssemblyInfoInputs.cache
+C:\Users\Nikola\Documents\Visual Studio 2019\MyProjects\WPF\CalculatorApp\WPFCalculatorSolution\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.AssemblyInfo.cs
+C:\Users\Nikola\Documents\Visual Studio 2019\MyProjects\WPF\CalculatorApp\WPFCalculatorSolution\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Nikola\Documents\Visual Studio 2019\MyProjects\WPF\CalculatorApp\WPFCalculatorSolution\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.dll
+C:\Users\Nikola\Documents\Visual Studio 2019\MyProjects\WPF\CalculatorApp\WPFCalculatorSolution\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.pdb

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFCalculatorApp"
         mc:Ignorable="d"
-        Title="Calculator by Nikola Vacic" Height="500" Width="600" ResizeMode="NoResize" FontSize="40" >
+        Title="Calculator by Nikola Vacic" Height="550" Width="550" ResizeMode="NoResize" FontSize="40" >
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
@@ -27,30 +27,31 @@
         </Grid.ColumnDefinitions>
         
         <Border x:Name="Border" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="5" Margin="0 20 0 50" BorderBrush="Black" BorderThickness="3" Width="500" Height="80">
-            <TextBlock x:Name="Display" FontSize="40" TextAlignment="Right" Background="Beige" Text="{Binding}" />
+            <TextBlock x:Name="Display" FontSize="40" TextAlignment="Right" Background="Beige" Text="{Binding CurrentValue, RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=Window}}" />
         </Border>
 
-        <Button x:Name="Number7" Grid.Row="1" Grid.Column="1" Height="70" Width ="70" Margin="5">7</Button>
-        <Button x:Name="Number8" Grid.Row="1" Grid.Column="2" Height="70" Width ="70" Margin="5">8</Button>
-        <Button x:Name="Number9" Grid.Row="1" Grid.Column="3" Height="70" Width ="70" Margin="5">9</Button>
-        <Button x:Name="TBD1" Grid.Row="1" Grid.Column="4" Height="70" Width ="70" Margin="5" FontSize="24">delete</Button>
-        <Button x:Name="TBD2" Grid.Row="1" Grid.Column="5" Height="70" Width ="70" Margin="5" FontSize="30">reset</Button>
+        <Button x:Name="Number7" Grid.Row="1" Grid.Column="1" Height="70" Width ="70" Margin="5" Click="Number7_Click">7</Button>
+        <Button x:Name="Number8" Grid.Row="1" Grid.Column="2" Height="70" Width ="70" Margin="5" Click="Number8_Click">8</Button>
+        <Button x:Name="Number9" Grid.Row="1" Grid.Column="3" Height="70" Width ="70" Margin="5" Click="Number9_Click">9</Button>
+        <Button x:Name="del" Grid.Row="1" Grid.Column="4" Height="70" Width ="70" Margin="5" FontSize="30" Click="del_Click">Del</Button>
+        <Button x:Name="res" Grid.Row="1" Grid.Column="5" Height="70" Width ="70" Margin="5" FontSize="30" Click="res_Click">Res</Button>
 
-        <Button x:Name="Number4" Grid.Row="2" Grid.Column="1" Height="70" Width ="70" Margin="5">4</Button>
-        <Button x:Name="Number5" Grid.Row="2" Grid.Column="2" Height="70" Width ="70" Margin="5">5</Button>
-        <Button x:Name="Number6" Grid.Row="2" Grid.Column="3" Height="70" Width ="70" Margin="5">6</Button>
-        <Button x:Name="multiplication" Grid.Row="2" Grid.Column="4" Height="70" Width ="70" Margin="5">*</Button>
-        <Button x:Name="division" Grid.Row="2" Grid.Column="5" Height="70" Width ="70" Margin="5">/</Button>
+        <Button x:Name="Number4" Grid.Row="2" Grid.Column="1" Height="70" Width ="70" Margin="5" Click="Number4_Click">4</Button>
+        <Button x:Name="Number5" Grid.Row="2" Grid.Column="2" Height="70" Width ="70" Margin="5" Click="Number5_Click">5</Button>
+        <Button x:Name="Number6" Grid.Row="2" Grid.Column="3" Height="70" Width ="70" Margin="5" Click="Number6_Click">6</Button>
+        <Button x:Name="multiplication" Grid.Row="2" Grid.Column="4" Height="70" Width ="70" Margin="5" Click="multiplication_Click">*</Button>
+        <Button x:Name="division" Grid.Row="2" Grid.Column="5" Height="70" Width ="70" Margin="5" Click="division_Click">/</Button>
 
-        <Button x:Name="Number1" Grid.Row="3" Grid.Column="1" Height="70" Width ="70" Margin="5">1</Button>
-        <Button x:Name="Number2" Grid.Row="3" Grid.Column="2" Height="70" Width ="70" Margin="5">2</Button>
-        <Button x:Name="Number3" Grid.Row="3" Grid.Column="3" Height="70" Width ="70" Margin="5">3</Button>
-        <Button x:Name="addition" Grid.Row="3" Grid.Column="4" Height="70" Width ="70" Margin="5">+</Button>
-        <Button x:Name="substraction" Grid.Row="3" Grid.Column="5" Height="70" Width ="70" Margin="5">-</Button>
+        <Button x:Name="Number1" Grid.Row="3" Grid.Column="1" Height="70" Width ="70" Margin="5" Click="Number1_Click">1</Button>
+        <Button x:Name="Number2" Grid.Row="3" Grid.Column="2" Height="70" Width ="70" Margin="5" Click="Number2_Click">2</Button>
+        <Button x:Name="Number3" Grid.Row="3" Grid.Column="3" Height="70" Width ="70" Margin="5" Click="Number3_Click">3</Button>
+        <Button x:Name="addition" Grid.Row="3" Grid.Column="4" Height="70" Width ="70" Margin="5" Click="addition_Click">+</Button>
+        <Button x:Name="substraction" Grid.Row="3" Grid.Column="5" Height="70" Width ="70" Margin="5" Click="substraction_Click">-</Button>
 
-        <Button x:Name="Number0" Grid.Row="4" Grid.Column="1" Height="70" Width ="70" Margin="5">0</Button>
-        <Button x:Name="dot" Grid.Row="4" Grid.Column="2" Height="70" Width ="70" Margin="5">.</Button>
-        <Button x:Name="equals" Grid.Row="4" Grid.Column="5" Height="70" Width ="70" Margin="5">=</Button>
+        <Button x:Name="Number0" Grid.Row="4" Grid.Column="1" Height="70" Width ="70" Margin="5" Click="Number0_Click">0</Button>
+        <Button x:Name="dot" Grid.Row="4" Grid.Column="2" Height="70" Width ="70" Margin="5" Click="dot_Click">.</Button>
+        <Button x:Name="answer" Grid.Row="4" Grid.Column="3" Height="70" Width ="70" Margin="5" FontSize="30" Click="answer_Click">Ans</Button>
+        <Button x:Name="equals" Grid.Row="4" Grid.Column="5" Height="70" Width ="70" Margin="5" Click="equals_Click">=</Button>
 
         
     </Grid>

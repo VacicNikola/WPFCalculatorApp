@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WojnH9LvuhBudPgEa+ZxRdo/w85GUEkudFNn01CKMnRGdMZ0HuvJR1i936r2vPxYR0ZY3PJN9JOyeqpeeShqXw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nikola\\Documents\\Visual Studio 2019\\MyProjects\\WPF\\CalculatorApp\\WPFCalculatorSolution\\CalculatorLibrary\\CalculatorLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nikola\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Nikola\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

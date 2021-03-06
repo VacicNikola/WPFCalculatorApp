@@ -17,3 +17,6 @@ C:\Users\Nikola\Documents\Visual Studio 2019\MyProjects\WPF\CalculatorApp\WPFCal
 C:\Users\Nikola\Documents\Visual Studio 2019\MyProjects\WPF\CalculatorApp\WPFCalculatorSolution\WPFCalculatorApp\obj\Debug\netcoreapp3.1\WPFCalculatorApp.dll
 C:\Users\Nikola\Documents\Visual Studio 2019\MyProjects\WPF\CalculatorApp\WPFCalculatorSolution\WPFCalculatorApp\obj\Debug\netcoreapp3.1\WPFCalculatorApp.pdb
 C:\Users\Nikola\Documents\Visual Studio 2019\MyProjects\WPF\CalculatorApp\WPFCalculatorSolution\WPFCalculatorApp\obj\Debug\netcoreapp3.1\WPFCalculatorApp.genruntimeconfig.cache
+C:\Users\Nikola\Documents\Visual Studio 2019\MyProjects\WPF\CalculatorApp\WPFCalculatorSolution\WPFCalculatorApp\bin\Debug\netcoreapp3.1\CalculatorLibrary.dll
+C:\Users\Nikola\Documents\Visual Studio 2019\MyProjects\WPF\CalculatorApp\WPFCalculatorSolution\WPFCalculatorApp\bin\Debug\netcoreapp3.1\CalculatorLibrary.pdb
+C:\Users\Nikola\Documents\Visual Studio 2019\MyProjects\WPF\CalculatorApp\WPFCalculatorSolution\WPFCalculatorApp\obj\Debug\netcoreapp3.1\WPFCalculatorApp.csproj.CopyComplete

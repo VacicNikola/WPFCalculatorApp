@@ -27,8 +27,6 @@ namespace WPFCalculatorApp
 
         private bool OperandClicked;
         
-        private bool firstIteration;
-
         private bool equalsClicked;
 
         
@@ -66,7 +64,6 @@ namespace WPFCalculatorApp
             SecondValue = null;
             OperandClicked = false;
             equalsClicked = false;
-            firstIteration = true;
             Operator = null;
 
             this.DataContext = CurrentValue;
@@ -180,7 +177,7 @@ namespace WPFCalculatorApp
             SecondValue = null;
             OperandClicked = false;
             equalsClicked = false;
-            firstIteration = true;
+            
         }   
 
         private void multiplication_Click(object sender, RoutedEventArgs e)
@@ -255,19 +252,14 @@ namespace WPFCalculatorApp
 
             equalsClicked = true;
 
-
-
-            string value;
-
+            
             if (SecondValue != null)
             {
-                value = Calculator.Arithmetic(SecondValue, CurrentValue, Operator);
+                string value = Calculator.Arithmetic(SecondValue, CurrentValue, Operator);
                 CurrentValue = value;
                 SecondValue = null;
                 EqualsAnswer = value;
             }
-
-
 
         }
 
